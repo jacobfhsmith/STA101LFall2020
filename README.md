@@ -18,10 +18,10 @@ The first lab will be due on Friday August 21st.
    <br><br>
    <b> Teaching Team</b>
    <br>
-   <a href="https://jacobfhsmith.github.io/mypage/">Jacob:</a> I an Assistant Research Professor in the Stats Department as of July 1st. Previously I was a Lecturing Fellow in the Thompson Writing Program here at Duke and before that completed a Ph.D. in Political Science at UNC-Chapel Hill. I enjoy using data and statistics to answer research questions on topics ranging from the electoral effect of <a href="https://libkey.io/libraries/229/articles/56283884/full-text-file?utm_source=api_871">Cherie Berry's elevator pictures</a> to what it's like to be in the minority party in Congress. I really enjoy mentoring undergraduate student research projects that use data to answer research questions.
+   <a href="https://jacobfhsmith.github.io/mypage/">Jacob:</a> I an Assistant Research Professor in the Stats Department as of July 1st. Previously I was a Lecturing Fellow in the Thompson Writing Program here at Duke and before that completed a Ph.D. in Political Science at UNC-Chapel Hill. I enjoy using data and statistics to answer research questions on topics ranging from the electoral effect of <a href="https://libkey.io/libraries/229/articles/56283884/full-text-file?utm_source=api_871"> Cherie Berry's elevator pictures</a> to what it's like to be in the minority party in Congress. I really enjoy mentoring undergraduate student research projects that use data to answer research questions.
    <br><br>
    
-  TA Bios To come... <br><br>
+ <a href="https://github.com/jacobfhsmith/STA101LFall2020/blob/master/Meet%20the%20TAs.docx?raw=true> Here </a> are bios of the TAs and their tips for making the most out of office hours. <br><br>
    <b>Office Hours</b> <br>
    Office hours are a great time to ask questions about the problem sets, labs, or anything else related to the class. You can also just stop by to say hi or talk about something cool you saw related to class. <br>
    Office Hour Times TBD
