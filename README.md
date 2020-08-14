@@ -26,18 +26,18 @@ The first lab will be due on Friday August 21st.
    Office hours are a great time to ask questions about the problem sets, labs, or anything else related to the class. You can also just stop by to say hi or talk about something cool you saw related to class. <br>
    Office Hour Times: Jacob has office hours on Tuesdays from 1:30-3:30 and Thursdays from 5:30-7.
    Office Hours for TAs:
-   Emily Gentles (head TA): Thursdays from 10:15 am to 12:15 pm.
-   Emre Yurtbay:	Friday 7-9 AM
-   Michael Sarkis:	Thursday 3-5 PM
-   Joe Mathews:	Monday 4-6 PM
-   Zeki Kazan:	Thursday 7-9 PM
-   Daniel Deng:	Friday 9 AM-11 AM
-   Evan Knox:	Thursday 8PM- 10 PM
-   Richard Chen:	Wednesday 4-6 PM
-   Molly Carson:	Tuesday 12-2 PM
-   Nadia Innab:	Monday 5-7 PM
-   Younis Mahmoud:	Wednesday 3-5 PM
-   Carly Grossfield:	Wednesday 2-4 PM
-   Thea Dowrich:	Thursday 5-7 PM
-   Sophie Riegel:	Friday 12-2 PM
+   Emily Gentles (head TA): Thursdays from 10:15 am to 12:15 pm. <br>
+   Emre Yurtbay:	Friday 7-9 AM <br>
+   Michael Sarkis:	Thursday 3-5 PM <br>
+   Joe Mathews:	Monday 4-6 PM <br>
+   Zeki Kazan:	Thursday 7-9 PM <br>
+   Daniel Deng:	Friday 9 AM-11 AM <br>
+   Evan Knox:	Thursday 8PM- 10 PM <br>
+   Richard Chen:	Wednesday 4-6 PM <br>
+   Molly Carson:	Tuesday 12-2 PM <br>
+   Nadia Innab:	Monday 5-7 PM <br>
+   Younis Mahmoud:	Wednesday 3-5 PM <br>
+   Carly Grossfield:	Wednesday 2-4 PM <br>
+   Thea Dowrich:	Thursday 5-7 PM <br>
+   Sophie Riegel:	Friday 12-2 PM <br>
    <br><br>
