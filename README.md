@@ -24,8 +24,8 @@ The first lab will be due on Friday August 21st.
  <a href="https://github.com/jacobfhsmith/STA101LFall2020/blob/master/Meet%20the%20TAs.docx?raw=true"> Here </a> are bios of the TAs and their tips for making the most out of office hours. <br><br>
    <b>Office Hours</b> <br>
    Office hours are a great time to ask questions about the problem sets, labs, or anything else related to the class. You can also just stop by to say hi or talk about something cool you saw related to class. <br>
-   Office Hour Times: Jacob has office hours on Tuesdays from 1:30-3:30 and Thursdays from 5:30-7.
-   Office Hours for TAs:
+   Office Hour Times: Jacob has office hours on Tuesdays from 1:30-3:30 and Thursdays from 5:30-7. <br>
+   Office Hours for TAs: <br>
    Emily Gentles (head TA): Thursdays from 10:15 am to 12:15 pm. <br>
    Emre Yurtbay:	Friday 7-9 AM <br>
    Michael Sarkis:	Thursday 3-5 PM <br>
