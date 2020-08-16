@@ -1,0 +1,92 @@
+**Name:** [Enter name here.]
+
+
+
+* * *
+
+
+
+**Data from Packages:**
+
+[Enter any text for this section here.]
+
+```{r}
+
+#Use This space to enter code for this section.
+
+```
+
+
+
+#### External Data: 
+
+[Enter any text for this section here.]
+
+
+
+```{r}
+
+#Enter your code for the section reviewing how to important data.
+
+```
+
+
+
+#### Visualizations:
+
+
+
+[Enter any text for this section here.]
+
+
+
+```{r}
+
+# Enter your code for the visualizations exercise here.
+
+```
+
+
+
+
+
+* * *
+
+
+
+### Graded Assignment:
+
+
+
+
+
+#### 1:
+
+
+
+
+
+#### 2:
+
+
+
+
+
+#### 3:
+
+
+
+
+
+#### 4:
+
+
+
+
+
+#### 5:
+
+
+
+
+
