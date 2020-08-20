@@ -14,7 +14,7 @@ Introduction to statistics as a science of understanding and analyzing data. The
 The first lab will be due on Friday August 21st.
 <br><br>
    <b> Class Meetings </b><br>
-   This course will use a flipped classroom format. Before each class session, there will be some readings and video lectures (see “Required Texts” below) to read and watch that focus on core statistical concepts or applications to social science/humanities research. Live Zoom sessions each day at 12:30 PM will focus on working through problems together and in groups in breakout rooms, answering questions, and discussing practical applications of the statistical concepts for that day. I will not take attendance at    Zoom sessions and I will provide a recording if you cannot attend. You should also enroll in a lab session. These sessions, led by two TAs (one graduate student and one undergraduate student), will provide guidance on how to use the statistical software R. As with the main session, I encourage you to attend if possible,   but I will make a recording available if you cannot attend. This will be a fast-paced course condensed into a short time-frame, so it is important to keep up with course material. However, I understand that challenges may arise during the semester, so I urge you to reach out to me if you have any concerns.
+This course will use an online flipped classroom format. Before each class session, there will be some readings and video lectures (see “Required Texts” below) to read and watch that focus on core statistical concepts or applications to social science/humanities research. Live Zoom sessions at the official time for your section will focus on working through problems together and in groups in breakout rooms, answering questions, and discussing practical applications of the statistical concepts for that day. I will not take attendance at Zoom sessions and I will provide a recording if you cannot attend. You should also enroll in a lab session. These sessions, led by graduate TAs partnered with an undergraduate TA, will provide guidance on how to use the statistical software environment R. As with the main session, I encourage you to attend if possible, but I will make a recording available if you cannot attend. This course is condensed into a shorter time-frame than a usual semester course, so it is important to keep up with course material. However, I understand that challenges may arise during the semester, so I urge you to reach out to me if you have any concerns.
    <br><br>
    <b> Teaching Team</b>
    <br>
@@ -29,11 +29,11 @@ The first lab will be due on Friday August 21st.
    Emily Gentles (head TA): Thursdays from 10:15 am to 12:15 pm. <br>
    Emre Yurtbay:	Friday 7-9 AM <br>
    Michael Sarkis:	Thursday 3-5 PM <br>
-   Joe Mathews:	Monday 4-6 PM <br>
+   Joe Mathews:	Monday 4:45-6:45 PM <br>
    Zeki Kazan:	Thursday 7-9 PM <br>
    Daniel Deng:	Friday 9 AM-11 AM <br>
    Evan Knox:	Thursday 8PM- 10 PM <br>
-   Richard Chen:	Wednesday 4-6 PM <br>
+   Richard Chen:	Wednesday 5-7 PM <br>
    Molly Carson:	Tuesday 12-2 PM <br>
    Nadia Innab:	Monday 5-7 PM <br>
    Younis Mahmoud:	Wednesday 3-5 PM <br>
