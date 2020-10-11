@@ -1,0 +1,174 @@
+---
+title: "Inference for Numerical Data, Part 2"
+output: 
+  html_document:
+    highlight: pygments
+    theme: cerulean
+
+---
+
+## Your reproducible lab report
+
+Before you get started, download the R Markdown template for this lab. Remember all of your code and answers go in this document:
+
+download.file("https://jacobfhsmith.github.io/STA101LFall2020/sta101_lab7.Rmd", destfile="sta101_lab7.Rmd")
+
+
+## North Carolina births
+
+In 2004, the state of North Carolina released a large data set containing information on births recorded in this state. This data set is useful to researchers studying the relation between habits and practices of expectant mothers and the birth of their children. We will work with a random sample of observations from this data set.
+
+## Packages
+
+We will be using the statsr package that we used in Lab 5. We’ll also be using the tidyverse library (which includes ggplot2 for visualization and dplyr for data manipulation).
+
+```{r, message=FALSE}
+library(statsr)
+library(tidyverse)
+```
+
+Remember, loading a package is something you need to do each time you launch a new R session and in each of your R Markdown files that have code that relies on this package.
+
+## Exploratory analysis
+
+Load the nc data set into our workspace.
+
+```{r}
+load(url("https://www.openintro.org/data/rda/ncbirths.rda"))
+```
+
+We have observations on 13 different variables, some categorical and some numerical. The meaning of each variable is as follows.
+
+### variable descriptions:
+
+  - __fage__	father’s age in years.
+  
+  - __mage__	mother’s age in years.
+  
+  - __mature__	maturity status of mother.
+  
+  - __weeks__	length of pregnancy in weeks.
+  
+  - __premie__	whether the birth was classified as premature (premie) or full-term.
+
+  - __visits__	number of hospital visits during pregnancy.
+
+  - __marital__	whether mother is married or not married at birth.
+  
+  - __gained__	weight gained by mother during pregnancy in pounds.
+
+  - __weight__	weight of the baby at birth in pounds.
+
+  - __lowbirthweight__	whether baby was classified as low birthweight (low) or not (not low).
+
+  - __gender__	gender of the baby, female or male.
+
+  - __habit__	status of the mother as a nonsmoker or a smoker.
+
+  - __whitemom__	whether mom is white or not white.
+
+## Exercise 1 (5%)
+
+What are the cases in the data (i.e., what do cases represent)? How many cases (or observations) do we have here? Hint: use either of dim(), str()
+
+```{r}
+
+```
+
+## Exercise 2 (15%)
+
+Make a side by side box plot for marital and weight of all female babies. What does the plot illustrate, i.e. describe the distribution for each category and compare?
+(Filter out an NA values in marital, is.na() may be useful)
+
+```{r}
+
+```
+
+
+## Exercise 3 (10%)
+
+Obtain the mean of weight of all female babies for each marital category. Do you think there is a significant difference between these two categories? What statistical method is suitable for quantify your guess? (Remember to filter out the NA values in marital)
+
+```{r}
+
+```
+
+
+## Inference example
+
+```{r}
+inference(y = weight, x = habit, data = nc, statistic = "mean", type = "ht", null = 0, 
+          alternative = "twosided", method = "theoretical")
+```
+
+
+- 1st argument is y, which is the response variable that we are interested in: weight. 
+
+- 2nd argument is the explanatory variable, x, which is the variable that splits the data into two groups, smokers and non-smokers: habit. 
+
+- 3rd argument, data, is the data frame these variables are stored in. 
+
+- 4th is statistic, which is the sample statistic we’re using, or similarly, the population parameter we’re estimating. Recall in Lab 5 we worked with “proportion”. 
+
+- 5th we decide on the type of inference we want: a hypothesis test ("ht") or a confidence interval ("ci"). When performing a hypothesis test, we also need to supply the null value, which in this case is 0, since the null hypothesis sets the two population means equal to each other. The alternative hypothesis can be "less", "greater", or "twosided". 
+
+- Lastly, the method of inference can be "theoretical" or "simulation" based. "simulation" based means getting a sampling distribution of the target statistic by bootstrapping (taking many samples from the dataset). Here we are going to use "theoretical".
+
+
+## Exercise 4 (15%)
+
+What are the required conditions to examine the difference in the mean weight of all female babies for married and unmarried parents? Show if they are met.
+
+```{r}
+
+```
+
+## Exercise 5 (20%)
+
+Implement a difference of means test for the mean weight of all female babies using the inference across marital status of parents. Does the mean weight of babies for married parents differ from that of non-married? Using the 0.05 significance level, interpret the results and state the conclusion.
+
+```{r}
+
+```
+
+## Exercise 6 (15%)
+
+Using the inference() command, construct an equivalent confidence interval for the hypothesis above.
+
+```{r}
+
+```
+
+Now, we are going to examine how to carry out Chi-Square Tests in R.
+
+## Chi-Square test
+
+- Expected Cell Count
+
+    The expected count for each cell under the null hypothesis is: $\frac{(\text{row total})(\text{col total})}{\text{total}}$
+    
+- Chi-Square Test Statistic
+    
+    The Chi-square test statistic is calculated as: $\chi^2 = \sum_{i=1}^{rc} \frac{(O_i - E_i)^2}{E_i}$
+    
+- Degrees of freedom
+
+    Under the null hypothesis and certain conditions (i.e. $E_i > 5$ for all), the test statistic follows a Chi-square distribution with degrees of freedom equal to $(r-1)(c-1)$, where $r$ is the number of rows and $c$ is the number of columns.
+
+```{r}
+table(ncbirths$premie, ncbirths$marital) %>% addmargins()
+```
+
+## Exercise 7 (20%)
+
+Implement a Chi-square independence test on premie and marital, as shown above. State the hypothesis test, report the p-value and state the final conclusion, using 0.05 significance level. For this exercise, you can either do the work in steps or use the chisq.test() command. You can read more about that command [here](http://www.r-tutor.com/elementary-statistics/goodness-fit/chi-squared-test-independence). Please report whether you used the Yates continuity correction.
+
+```{r}
+
+```
+
+### References
+
+Kelly Moran's lab6: https://kelrenmor.github.io/STA101-002/labs/lab6/lab6
+
+Modified from lab made by Daniel Deng for Summer 2020.
