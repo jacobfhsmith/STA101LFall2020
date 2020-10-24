@@ -1,0 +1,95 @@
+---
+title: "ANOVA and Intro to Linear Regression"
+output: 
+  html_document:
+    highlight: pygments
+    theme: cerulean
+---
+
+```{r setup, include=FALSE}
+
+# DO NOT ALTER CODE IN THIS CHUNK
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(readxl)
+library(tidyverse)
+
+```
+
+
+**Note: this lab is to be turned in individually.** However, feel free to discuss/work with your team. Collaboration is allowed. Copy-pasting is not.
+
+
+* * *
+
+#### Exercise 1: 
+
+
+
+```{r ex1, echo=TRUE}
+
+```
+
+
+
+#### Exercise 2: 
+
+
+
+```{r ex2, echo=TRUE}
+
+```
+
+
+
+#### Exercise 3: 
+
+
+
+```{r ex3, echo=TRUE}
+
+```
+
+
+
+
+
+#### Exercise 4: 
+
+
+
+```{r ex4, echo=TRUE}
+
+```
+
+
+
+#### Exercise 5: 
+
+
+
+```{r ex5, echo=TRUE}
+
+```
+
+
+
+#### Exercise 6: 
+
+
+
+```{r ex6, echo=TRUE}
+
+```
+
+#### Exercise 7: 
+
+
+
+```{r ex7, echo=TRUE}
+
+```
+
+
+
