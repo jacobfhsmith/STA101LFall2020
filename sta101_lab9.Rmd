@@ -1,0 +1,58 @@
+---
+title: "Lab 9"
+output:
+  html_document:
+    highlight: pygments
+    theme: cerulean
+    toc: true
+---
+
+```{r setup, include=FALSE}
+
+# DO NOT ALTER CODE IN THIS CHUNK
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(readxl)
+library(effects)
+library(car)
+
+```
+
+**Note: this lab is to be turned in individually.** However, feel free to discuss/work with your team. Collaboration is allowed. Copy-pasting is not.
+
+* * *
+
+#### Exercise 1: 
+
+```{r ex1, echo=TRUE}
+
+
+
+```
+
+#### Exercise 2: 
+
+```{r ex2, echo=TRUE}
+
+
+
+```
+
+#### Exercise 3: 
+
+```{r ex3, echo=TRUE}
+
+
+
+```
+
+#### Exercise 4: 
+
+```{r ex4, echo=TRUE}
+
+
+
+```
+
+
